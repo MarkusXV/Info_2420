@@ -1,0 +1,144 @@
+﻿/*
+*/
+
+
+body {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+header {
+  width: 900px;
+  height: 150px;
+  text-align: center;
+  padding: 0px 0px 40px 0px;
+  margin: auto;
+  /*
+  background-color: #CCCCCC;
+  border: dashed medium navy;
+  */
+}
+
+
+section {
+  text-align: center;
+  width: 900px; 
+  background-image: url("Images/Logo_Print/3colback.png");
+  background-repeat: repeat-y;
+  margin: auto;
+  overflow: hidden; 
+  /*
+  background-image: url('Images/inner_background.gif'); 
+  background-repeat: repeat-y; 
+  border-right: dashed medium navy; 
+  border-left: dashed medium navy;
+  */
+}
+
+
+
+footer {
+  width: 900px;
+  height: 70px;
+  /*
+  border: dashed medium navy;
+  background-color: #CCCCCC;
+  margin: auto;
+  text-align: center;
+  */
+}
+
+article {
+  float: right;
+  width: 83%;
+  text-align: left;
+  padding-right: 10px;
+  
+}
+
+#header {
+  font-size: 30px;
+}
+
+#MiddleSection {
+  margin: auto;
+  background-color: #FBFBFB;
+  text-align: center;
+  border: double thick;
+  border-color: black;
+  width: 900px;
+  font-size: 17px;
+  padding: 9px;
+  
+}
+
+#MiddleSection #banner {
+  padding: 13px 0px 0px 0px;
+}
+
+.logoleft {
+  float: left;
+  padding: 0px 0px 0px 20px;
+  margin: 0px 15px 0px 0px;
+}
+
+
+nav {
+  display: none;
+  float: left;
+  width: 125px;
+  padding-left: 8px;
+  padding-top: 10px;
+  line-height: 250%;
+  font-size: 17px;
+  text-align: left;
+}
+
+nav a {
+  border: 2px inset #CCCCCC;
+  background-color: #FBFBFB;
+  line-height: 250%;
+  color: #162521; font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 1px 3px;
+}
+
+nav a:hover {
+  color: #606060;
+  border: 2px outset #CCCCCC;
+}
+
+div .center {
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  width: 80%;
+  background-color: black;
+}
+
+div #testimonial {
+  text-align: center;
+  margin: 0px 30px 60px 10px;
+}
+
+div #testimonial p {
+  float: right;
+  text-align: left;
+  width: 50%;
+  font-size: 17px;
+  padding: 15px 100px 0px 0px;
+}
+
+div #testimonial img {
+  padding: 0px 0px 0px 60px;
+}
+
+footer {
+  display: none;
+  padding: 15px 0px 0px 0px;
+}
+
+
+

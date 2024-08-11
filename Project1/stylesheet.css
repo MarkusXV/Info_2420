@@ -1,0 +1,24 @@
+﻿html{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  min-width: 30em;
+  max-width: 70em;
+}
+
+h1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+a {
+  color: #079424;
+}
+
+.Main {
+  align-self: center;
+  padding: 1em 3em 1em 3em;
+  width: minmax(min-content, 500px);
+}

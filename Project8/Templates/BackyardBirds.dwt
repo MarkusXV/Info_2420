@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="../mystyles.css" rel="stylesheet" type="text/css">
+<link href="../Print.css" rel="stylesheet" type="text/css" media="print">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Backyard Birds Home</title>
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="../myscripts.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body onload="preloadImages()">
+  <div id="MiddleSection">
+    <header>
+      <a href="../Home.html" onMouseOver="document.logo.src=logo2.src;"
+	    onMouseOut="document.logo.src=logo1.src;">
+      <img class="logoleft" src="../Images/logo_1.png" name="logo" width="140" alt="">
+      </a>
+      
+      <img id="banner" src="../Images/Banner/Banner_Finish_2.jpg" width="500" alt="">
+      
+      
+    </header>
+
+    <!-- TemplateBeginEditable name="PageContent" -->
+    <section>
+      <nav> <a href="../Home.html">Home</a> <br>
+        <a href="../Home.html">About Us</a> <br>
+        <a href="../Home.html">Tributes</a> <br>
+        <a href="../Home.html">Survey</a> <br>
+        <a href="../Home.html">Favorites</a> </nav>
+      <article id="article">
+        <div class="center">
+          <h1 id="header"> Backyard Birds Home Page </h1>
+        </div>
+        <hr>
+        <br>
+        <p> Welcome to Backyard Birds of Utah! 
+          If you love birdwatching like we do, you should enjoy looking around this site.  
+          Take a look at our Bird Profiles and take the opportunity to complete our survey. </p>
+        <br>
+        <div class="center">
+          <h2> Pictures </h2>
+          <img src="../Images/Thumbnails/CardinalSm.png" alt="Cardinal" onMouseOver="swapImage(0);"> <img src="../Images/Thumbnails/duckSm.png" alt="Duck" onMouseOver="swapImage(1);"> <img src="../Images/Thumbnails/HeronSm.png" alt="Heron" onMouseOver="swapImage(2);"> <img src="../Images/Thumbnails/OwlSm.png" alt="Owl" onMouseOver="swapImage(3);"> </div>
+        <div class="center"> <img id="theImage" src="../Images/FullSize/CardinalLg.png" alt="Cardinal">
+          <h3 id="bottomText">Cardinal</h3>
+          <br>
+          <hr>
+          <br>
+          <h2> Testimonial </h2>
+        </div>
+        <div id="testimonial"> <img width="133" height="200" src="../Images/Given_img_Tributes/GeeseSmall.jpg" alt="">
+          <p> "My name is Dave Jorgensen. I live in northern Utah and I enjoy bird watching. Every year I look forward to finding a nature calendar to put in my office. Because I work in the city, I enjoy being reminded about the beauty of the state of Utah. I was excited to&nbsp; &nbsp;<a href="../testimonials.html">more &gt;</a></p>
+        </div>
+      </article>
+    </section>
+    <!-- TemplateEndEditable -->
+<footer>
+    Contact us by Email: <a href="mailto:10934984@uvu.edu">Peter Sanford</a>
+    <p>
+        This web site has been created solely for educational purposes.
+      </p>
+    </footer>
+    
+  </div>
+
+
+</body>
+</html>
